@@ -24,10 +24,10 @@ const Sidebar = ()=> {
             </div>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/" style={{color:"white"}}>Home</Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about" style={{color:"white"}}>About</Link>
               </li>
             </ul>
           </div>
