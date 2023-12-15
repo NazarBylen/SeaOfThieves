@@ -1,0 +1,19 @@
+.sidebar-text {
+    font-family: "Seaweed Script";
+    font-size: 24px;
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+.sidebar-root {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    background: url("../../media/header-back.jpg");
+}
+
+.sidebar-parent {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+}

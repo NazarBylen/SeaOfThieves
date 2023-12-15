@@ -1,0 +1,33 @@
+.home-page {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.gameplay-sot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gameplay-video {
+    margin: 0 150px;
+}
+
+.our-crew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.crew-img {
+    width: 420px;
+    height: 315px;
+    margin: 0 150px;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.crew-img:hover {
+    opacity: 1;
+}

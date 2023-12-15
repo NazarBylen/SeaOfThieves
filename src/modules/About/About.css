@@ -1,0 +1,9 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.about-text {
+    margin: 0 150px;
+}
