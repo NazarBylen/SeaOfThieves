@@ -1,6 +1,18 @@
-.home-header {
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 300px;
+    width: 100%;
+}
+
+.logo-sot {
+    width: 250px;
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    .logo-sot {
+        width: 150px;
+        height: 100px;
+    }
 }
